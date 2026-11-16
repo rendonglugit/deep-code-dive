@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Awesome-AI-Skills](https://img.shields.io/badge/Awesome-AI--Skills-green.svg)](https://github.com)
 
-> **拒绝空洞的设计模式套话与大模型的“事后合理化”。将源码认知推向决策层与失效边界。**
+> **拒绝空洞的设计模式套话与大模型的“事后合理化”。将源码认知推向决策层、历史妥协与失效边界。**
 
 ---
 
@@ -35,7 +35,7 @@
    - `[Inferred]`：逻辑推断，严禁伪装成既成事实。
    - `[Unknown]`：未确证的历史盲区。
 3. **寻找工程妥协**：重点挖掘代码中的 `hack`、`gross`、`poor heuristic`、`workaround` 与 Issue 跟踪编号。
-4. **不变量与成本分析**：剖析系统最昂贵的资源消耗，阐明系统为了防止哪种灾难（如花屏、撕裂、OOM）设立了不可侵犯的规则。
+4. **不变量与成本分析**：剖析系统最昂贵的资源消耗（如跨网络 I/O、GC 抖动、主线程卡顿、线程饥饿），阐明系统为了防止哪种灾难设立了不可侵犯的规则。
 5. **三重验收交付**：提供脱离 AI 即可进行的 Explain / Predict / Intervene 验收测试题。
 
 ---
